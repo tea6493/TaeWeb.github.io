@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0;
+}
+
+#cage {
+    background-color: rgba(0, 0, 255, .5);
+    max-width: 1080px;
+    min-width: 360px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(255, 0, 0, .5);
+    height: 44px;
+    padding: 12px 0;
+
+}
+
+footer {
+    background-color: rgba(0, 255, 0, .5);
+}
