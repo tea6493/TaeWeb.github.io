@@ -14,51 +14,66 @@
 
     <!-- BODY -->
     <body>
-        <script src="../scripts/script.js"></script>
-        <div id="cage">
 
-    <!-- HEADER -->
-            <header>
+        <!-- HEADER -->
+        <header>
 
-    <!-- LOGO -->
-                <a href="./index.html" id="logo" target="_blank">Tae Web</a>
-    
-    <!-- NAV BAR -->
-                <nav id="nav">
-                    <ul>
-                        <li><a href="./aboutme.html" target="_blank">About me</a></li>
-                        <li><a href="./projects.html" target="_blank">Projects</a></li>
-                    </ul>
-                </nav>
-
-    <!-- LOG IN -->
-                <!-- Gotta make a login machanism -->
-            
-            </header>
-            
-    <!-- MAIN BODY -->
-            <main>
-                <div id="myname">
-                    <div id="dictionary">
-                        <h1 id="name">Taesuk</h1>
-                        <h2 id="noun">noun</h2>
+            <!-- DESKTOP NAV -->
+            <nav id="desktop-nav">
+                <div class="header-left">
+                    <div class="logo-wrapper">
+                        <img src="../images/Logo-day.png" alt="Tae Web Logo" class="logo-img"/>
+                        <div class="logo">Tae Web</div>
                     </div>
-                    <div id="reading">
-                        <p id="syllable">Tae·suk</p>
-                        <p id="pronounciation">tā-sək</p>
-                    </div>
-                    <div id="definition">
-                        <p>1 :Software Developer</p>
-                        <p>2 :Student</p>
+                    <div>
+                        <ul class="nav-links">
+                            <li><a href="#aboutme">About me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
                     </div>
                 </div>
-            </main>
-            <footer>
-                <h1>contact</h1>
-                <p>form with email?</p>
-                <p>links to linked in and github</p>
-                <p>copy right</p>
-            </footer>
-        </div>
+
+                <!-- FUTURE IMPLEMENTATION -->
+                <div class="header-right">
+                    <div>day</div>
+                    <a href="#">login</a>
+                </div>
+            </nav>
+
+            <!-- HAMBURGER NAV -->
+            <nav id="hamburger-nav">
+                <div>
+                    <img src="../images/Logo-day.png" alt="Tae Web Logo" class="logo-img"/>
+                    <a class="logo" href="./index.html">Tae Web</a>
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#aboutme" onclick="toggleMenu()">About me</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN BODY -->
+        <main>
+            <section id="profile">
+                
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+
+        </footer>
+
+        <!-- SCRIPT -->
+        <script src="../scripts/script.js"></script>
+
     </body>
 </html>
