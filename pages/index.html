@@ -36,7 +36,7 @@
                 <!-- FUTURE IMPLEMENTATION -->
                 <div class="header-right">
                     <div>day</div>
-                    <a href="#">login</a>
+                    <a href="#login">login</a>
                 </div>
             </nav>
 
@@ -57,6 +57,7 @@
                     <div class="menu-links">
                         <li><a href="#aboutme" onclick="toggleMenu()">About me</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#login" onclick="toggleMenu()">login</a></li>
                     </div>
                 </div>
             </nav>
@@ -65,17 +66,112 @@
         <!-- MAIN BODY -->
         <main>
             <section id="profile">
-                
+                <div id="name">
+                    <h1 id="first-name">Taesuk</h1>
+                    <h2 id="last-name">Song</h2>
+                </div>
+                <div id="reading">
+                    <h3 id="syllable">Tae·suk</h3>
+                    <h4 id="pronounciation">tā-sək</h4>
+                </div>
+                <div id="definition">
+                    <div class="def">
+                        <div class="num-def">1</div>
+                        <div class="words-def">
+                            <p class="main-def">: Aspired Software Engineer</p>
+                            <p class="also-def"><em>also</em> : full-stack web-developer</p>
+                            <p class="sentence-def">“Taesuk can code in multiple coding languages such as<br />Python, Java, C, and etc...”</p>
+                        </div>
+                    </div>
+
+                    <div class="def">
+                        <div class="num-def">2</div>
+                        <div class="words-def">
+                            <p class="main-def">: Hard worker; Passionate person</p>
+                            <p class="sentence-def">“You can always depend on Taesuk to get things done.”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="next-btn" onclick="location.href='./#aboutme'">
+                    <a class="next-btn-text">Learn More about Taesuk</a>
+                    <div class="next-btn-icon"></div>
+                </div>
+            </section>
+            
+            <section id="aboutme">
+                <div id="aboutme-top">
+                    <img src="../images/Profile pic.JPG" alt="Profile Picture" class="about-pic"/>
+                    <div class="section-container">
+                        <p id="section-title">Hey, I'm Taesuk.</p>
+                        <p class="section-desc"><strong>Software Engineering</strong> student at George Mason University and a future <strong>Full Stack Developer</strong>. With Over 3 years of immersive internship and entrepreneurial experience, specializing in programming and crafting captivating <strong>UX/UI</strong> designs for a diverse range of front-end and back-end projects. I hope to research and develop <strong>Machine Learning</strong> technology in the future. I love the challenges and discoveries I get from programming. Eager to contribute my skills and knowledge to innovative endeavors!</p>
+                        <a class="section-href" href="../Taesuk Song Resume.pdf" target="_blank">See Résumé</a>
+                    </div>
+                </div>
+                <div>
+                    <p id="tech-title">example of technologies :</p>
+                    <div class="tech-wheel"></div>
+                </div>
+                <div class="next-btn" onclick="location.href='./#projects'">
+                    <a class="next-btn-text">See Taesuk's Projects</a>
+                    <div class="next-btn-icon"></div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h1 id="section-title">My Projects :</h1>
+                <div class="project">
+                    <img src="../images/project screen shot placeholder.png" alt="Project Screen Shot" class="project-img"/>
+                    <div class="section-container">
+                        <h4 class="project-title">Potofolio website</h4>
+                        <p class="section-desc">This is my portfolio website. I created this website to showcase my skills and projects. I used HTML, CSS, and JavaScript to create this website.</p>
+                        <div class="icons">
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                        </div>
+                        <a class="section-href" href="https://github.com/tea6493/TaeWeb.github.io">inspect code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../images/project screen shot placeholder.png" alt="Project Screen Shot" class="project-img"/>
+                    <div class="section-container">
+                        <h4 class="project-title">Potofolio website</h4>
+                        <p class="section-desc">This is my portfolio website. I created this website to showcase my skills and projects. I used HTML, CSS, and JavaScript to create this website.</p>
+                        <div class="icons">
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                        </div>
+                        <a class="section-href" href="https://github.com/tea6493/TaeWeb.github.io">inspect code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../images/project screen shot placeholder.png" alt="Project Screen Shot" class="project-img"/>
+                    <div class="section-container">
+                        <h4 class="project-title">Potofolio website</h4>
+                        <p class="section-desc">This is my portfolio website. I created this website to showcase my skills and projects. I used HTML, CSS, and JavaScript to create this website.</p>
+                        <div class="icons">
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                            <img src="../images/Logo-day.png" alt="tech Icon" class="icons"/>
+                        </div>
+                        <a class="section-href" href="https://github.com/tea6493/TaeWeb.github.io">inspect code</a>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!-- FOOTER -->
         <footer>
-
+            <div class="icons">
+                <img src="../images/Github Icon.png" alt="Github Icon" class="icons"/>
+                <img src="../images/Linkedin Icon.png" alt="LinkedIn Icon" class="icons"/>
+            </div>
+            <p id="copyright">Copyright &#169; 2024 Taesuk Song. All Rights Reserved.</p>
         </footer>
 
         <!-- SCRIPT -->
-        <script src="../scripts/script.js"></script>
+        <script src="../script/script.js"></script>
 
     </body>
 </html>
