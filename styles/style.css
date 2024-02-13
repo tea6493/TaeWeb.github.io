@@ -167,8 +167,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 2vh;
+  height: 98vh;
   width: 80vw;
   margin: 0 auto;
   box-sizing: border-box;
@@ -185,7 +185,7 @@ section {
 #profile {
   display: block;
   justify-content: left;
-  height: 90vh;
+  height: 91vh;
 }
 
 #name, #reading {
@@ -260,7 +260,6 @@ section {
 /* NEXT BUTTON */
 
 .next-btn {
-  padding-top: 7rem;
   display: flex;
   gap: 0.5rem;
   justify-content: center;
