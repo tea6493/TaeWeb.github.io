@@ -167,8 +167,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 2vh;
-  height: 98vh;
+  padding-top: 4vh;
+  height: 96vh;
   width: 80vw;
   margin: 0 auto;
   box-sizing: border-box;
@@ -185,7 +185,7 @@ section {
 #profile {
   display: block;
   justify-content: left;
-  height: 91vh;
+  height: 89vh;
 }
 
 #name, #reading {
@@ -264,6 +264,7 @@ section {
   gap: 0.5rem;
   justify-content: center;
   align-self: bottom;
+  margin-top: 8vh;
 }
 
 .next-btn-text {
@@ -292,7 +293,7 @@ section {
 #aboutme-top {
   display: flex;
   gap: 3vw;
-  margin-top: 5vh;
+
 }
 
 .about-pic {
