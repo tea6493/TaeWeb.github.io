@@ -1,0 +1,57 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* TRANSITIONS */
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+/* HEADER */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  height: 7vh
+}
+
+.logo-container{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logo-container a{
+  font-family: 'Inria Serif';
+  font-weight: Regular;
+  font-size: 32px;
+}
+
+.logo{
+  width: 2.5em;
+  height: auto;
+}
+
+nav{
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 1rem;
+}
+
+nav li, nav a{
+  font-size: 1.5rem;
+  list-style: none;
+}
