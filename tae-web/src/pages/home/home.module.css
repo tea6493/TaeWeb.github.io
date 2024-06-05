@@ -1,0 +1,50 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+    align-items: center;
+}
+
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroUpper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 36px;
+}
+
+.heroUpper h1{
+    font-size: 178px;
+}
+
+.heroUpper h2{
+    font-size: 108px;
+    color: var(--accentStrong);
+}
+
+.heroLower{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.heroLower h3{
+    font-size: 48px;
+}
+
+.heroLower h4 {
+    font-size: 36px;
+    color: var(--accentStrong);
+}
+
+p {
+    color: var(--text);
+}       
