@@ -1,9 +1,6 @@
-/* React IMPORTS */ 
 
 /* STYLE IMPORTS */
-import styles from "./about.module.css"
-
-/* COMPONENT IMPORTS */
+import styles from "./about.module.css";
 
 /* ASSET IMPORTS */
 import ProfilePic from "../../assets/ProfilePic.jpg";
