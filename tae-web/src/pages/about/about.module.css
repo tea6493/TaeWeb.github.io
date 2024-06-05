@@ -1,0 +1,75 @@
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+    gap: 36px;
+    height: 900px;
+}
+
+.aboutmeUpper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.aboutmeRight {
+    height: 325px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutme h3{
+    font-size: 36px;
+}
+
+.aboutme p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.profilePic {
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.aboutmeLower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.technologyCard {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block
+}
+
+
+.technologyCard .cardImage{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.technologyCard .cardTitle{
+    font-size: 24px;
+}
+
+.technologyCard .cardText{
+    font-size: 18px;
+    font-weight: 300;
+}
