@@ -24,6 +24,6 @@
     margin: 12px;
 }
 
-p {
+.copyright {
     color: var(--bg);
 }

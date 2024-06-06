@@ -61,7 +61,6 @@ function About() {
                     <p className={styles.cardText}>1 year</p>
                 </div>
             </div>
-            
         </div>
     )
 }

@@ -28,12 +28,6 @@
     font-size: 36px;
 }
 
-.aboutme p{
-    font-size: 18px;
-    font-weight: 300;
-    color: var(--text);
-}
-
 .profilePic {
     width: 300px;
     height: auto;
@@ -59,18 +53,19 @@
 }
 
 
-.technologyCard .cardImage{
+.cardImage{
     max-width: 100px;
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
-.technologyCard .cardTitle{
+.cardTitle{
     font-size: 24px;
 }
 
-.technologyCard .cardText{
+.cardText{
     font-size: 18px;
     font-weight: 300;
+    color: var(--text);
 }

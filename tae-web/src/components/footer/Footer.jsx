@@ -16,7 +16,7 @@ function Footer() {
                 <a href='https://github.com/tea6493'><img className={styles.icon} src={Github} alt="Github Logo"></img></a>
                 <a href='https://www.linkedin.com/in/taesuk-song/'><img className={styles.icon} src={LinkedIn} alt="LinkedIn Logo"></img></a>
             </div>
-            <p>&copy; {new Date().getFullYear()} Tae Web.  All Rights Reserved.</p>
+            <p className={styles.copyright}>&copy; {new Date().getFullYear()} Tae Web.  All Rights Reserved.</p>
         </div>
     )
 }
