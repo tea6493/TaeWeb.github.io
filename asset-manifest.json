@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ff0d189.css",
-    "main.js": "/static/js/main.de42ba3a.js",
+    "main.css": "/static/css/main.ce741d4a.css",
+    "main.js": "/static/js/main.a357f070.js",
     "static/media/TaeWeb.png": "/static/media/TaeWeb.c8be1b9c677581d58338.png",
     "static/media/ProfilePic.jpg": "/static/media/ProfilePic.63a13230c2398459939c.jpg",
     "static/media/Java.png": "/static/media/Java.e238a2c40e6eaec570bc.png",
@@ -9,11 +9,11 @@
     "static/media/Python.png": "/static/media/Python.9c47735ea0c4a2d20349.png",
     "static/media/Linkedin.png": "/static/media/Linkedin.cc1296343d3fe3ff3ee3.png",
     "index.html": "/index.html",
-    "main.1ff0d189.css.map": "/static/css/main.1ff0d189.css.map",
-    "main.de42ba3a.js.map": "/static/js/main.de42ba3a.js.map"
+    "main.ce741d4a.css.map": "/static/css/main.ce741d4a.css.map",
+    "main.a357f070.js.map": "/static/js/main.a357f070.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff0d189.css",
-    "static/js/main.de42ba3a.js"
+    "static/css/main.ce741d4a.css",
+    "static/js/main.a357f070.js"
   ]
 }
