@@ -16,7 +16,7 @@ function App() {
   return(
     <div className="container">
       <BrowserRouter>
-        <Header />
+        <Header style={{position: "sticky"}}/>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
