@@ -1,0 +1,36 @@
+
+.container {
+    width: 100vw;
+    height: 500px;
+    align-self: center;
+    text-align: center;
+    background-color: var(--bg5);
+    justify-content: top;
+    color: var(--text-white);
+}
+
+.link_container {
+    width: 1035px;
+    
+}
+
+h1 {
+    font-size: 78px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.logo_icon {
+    width: 165px;
+    height: 165px;
+}
