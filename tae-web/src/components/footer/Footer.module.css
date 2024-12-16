@@ -1,9 +1,13 @@
 
-.container {
+.wrapper {
     background-color: var(--bg5);
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 1065px;
     color: var(--text-white);
-    text-align: center;
-    width: 100vw;
     align-self: center;
     height: 500px;
     display: flex;
@@ -43,6 +47,6 @@ p {
 }
 
 .logo_icon {
-    width: 165px;
-    height: 165px;
+    width: 150px;
+    height: auto;
 }

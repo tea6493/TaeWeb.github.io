@@ -4,14 +4,10 @@
 
 /* Container Set Up */
 .container {
-    width: 100%;
-    max-width: 1065px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     box-sizing: border-box;
+    align-items: center;
 }
 
 /* FOR FUTURE USE */
