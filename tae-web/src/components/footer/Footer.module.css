@@ -1,17 +1,29 @@
 
 .container {
-    width: 100vw;
-    height: 500px;
-    align-self: center;
-    text-align: center;
     background-color: var(--bg5);
-    justify-content: top;
     color: var(--text-white);
+    text-align: center;
+    width: 100vw;
+    align-self: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .link_container {
-    width: 1035px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 h1 {
