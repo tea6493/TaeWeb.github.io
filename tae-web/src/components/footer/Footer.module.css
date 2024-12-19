@@ -2,18 +2,20 @@
 .wrapper {
     background-color: var(--bg5);
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
+    color: var(--text-white);
+    text-align: center;
     max-width: 1440px;
     min-width: 1065px;
-    color: var(--text-white);
-    align-self: center;
     height: 500px;
+    padding: 35px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 35px 0;
 }
 
 .contact {
