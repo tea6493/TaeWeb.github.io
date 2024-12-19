@@ -33,3 +33,23 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+h1 {
+    font-size: 128px;
+}
+
+h2 {
+    font-size: 82px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
