@@ -1,5 +1,6 @@
 
 /* React Imports */
+import { Link } from 'react-router-dom';
 
 /* Style Imports */
 import styles from './Home.module.css';
@@ -16,8 +17,8 @@ function Home() {
                 <h1>Hi. Im Taesuk.</h1>
                 <h2>Full Stack Developer</h2>
             </div>
-            <p>Just an ordinary guy, doing an ordinary things,<br />looking for friends along the way.</p>
-            <Button text="Learn More about me" />
+            <h4>Just an ordinary guy, doing an ordinary things,<br />looking for friends along the way.</h4>
+            <Link to='/about'><Button text='Learn More' color='red' /></Link>
         </div>
     )
 }
